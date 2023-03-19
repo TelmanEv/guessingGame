@@ -82,7 +82,7 @@ function evalGuess() {
     }
 
     if(guessesLeft == 0) { // if out of guesses, game over
-        feedback.innerHTML = `Game over! Ypu are out of guesses <br> The mystery number was: ${randNum}`;
+        feedback.innerHTML = `Game over! You are out of guesses <br> The mystery number was: ${randNum}`;
         penalty = 2;
         resetGame();
         // updateScoreResetGame();
